@@ -1,0 +1,25 @@
+.cta-inner {
+  background: linear-gradient(135deg, var(--color-dark), #55341f);
+  border-radius: var(--radius-lg);
+  padding: 64px 40px;
+  text-align: center;
+  color: var(--color-white);
+  box-shadow: var(--shadow-hover);
+}
+
+.cta-title {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.cta-desc {
+  color: #E8D9C9;
+  max-width: 520px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+}
+
+.cta-btn {
+  display: inline-flex;
+}
